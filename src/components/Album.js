@@ -39,7 +39,7 @@ class Album extends Component {
                 return (
                   <div className="itemDisplay">
                     <div>
-                      <img className="img" src={item.url} />
+                      <img className="img" src={item.url} alt="" />
                     </div>
                     <div className="title">
                       {item.title}
